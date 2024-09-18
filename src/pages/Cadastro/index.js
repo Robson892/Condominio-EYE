@@ -66,7 +66,7 @@ const CadastroPage = () => {
         }
 
         try {
-            const response = await fetch('http://192.168.15.113:3000/api/cadastrar', {  // Substitua pelo IP correto
+            const response = await fetch('http://localhost:3000/api/cadastrar', {  // Substitua pelo IP correto
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

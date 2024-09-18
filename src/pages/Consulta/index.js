@@ -7,7 +7,7 @@ export function ConsultaPage() {
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        fetch('http://192.168.15.9:3000/api/consultar') // Substitua pelo IP e porta corretos
+        fetch('http://localhost:3000/api/consultar') // Substitua pelo IP e porta corretos
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Network response was not ok');

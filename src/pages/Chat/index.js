@@ -6,7 +6,7 @@ const ChatScreen = () => {
   return (
     <View style={styles.container}>
       <WebView 
-        source={{ uri: 'http://192.168.15.9:3000' }} 
+        source={{ uri: 'http://localhost:3000' }} 
         style={styles.webview}
       />
     </View>

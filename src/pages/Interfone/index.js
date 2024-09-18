@@ -10,7 +10,7 @@ export function ChamadaPage() {
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        fetch('http://192.168.15.9:3000/api/blocos-apartamentos')
+        fetch('http://localhost:3000/api/blocos-apartamentos')
             .then(response => response.json())
             .then(data => {
                 setBlocosApartamentos(data);

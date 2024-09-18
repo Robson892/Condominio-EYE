@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, FlatList, TouchableOpacity, StyleSheet, Dimensions, Alert } from 'react-native';
 import { WebView } from 'react-native-webview';
 
-// Função para converter o URL do YouTube para o formato de embed
+// Implementar funca para siste de cameras interno
 const convertToEmbedUrl = (url) => {
   if (!url) return '';
   const videoIdMatch = url.match(/[?&]v=([^&]+)/);

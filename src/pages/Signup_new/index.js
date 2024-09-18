@@ -30,7 +30,7 @@ export default function LoginPage() {
 
     try {
       // Enviar uma solicitação para o servidor para validar o login
-      const response = await fetch('http://192.168.15.9:3000/api/login', {
+      const response = await fetch('http://localhost:3000/api/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

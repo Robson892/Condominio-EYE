@@ -12,7 +12,7 @@ export default function Ouvidoria() {
       return;
     }
 
-    // Aqui você pode implementar a lógica de envio da mensagem, como enviar por e-mail ou salvar em um banco de dados.
+    // implementar a lógica de envio da mensagem, como enviar por e-mail ou salvar em um banco de dados.
     Alert.alert('Mensagem Enviada', 'Sua mensagem foi enviada com sucesso!');
     setMessage('');
     navigation.goBack(); // Voltar para a tela anterior após o envio

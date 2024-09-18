@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, ActivityIndicator, Alert, TouchableOpacity } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
 
+
+//Implementar logica de chamada via API
+
 export function ChamadaPage() {
     const [blocosApartamentos, setBlocosApartamentos] = useState({ blocos: [], apartamentos: [] });
     const [selectedBloco, setSelectedBloco] = useState('');
